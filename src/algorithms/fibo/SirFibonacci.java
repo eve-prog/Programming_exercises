@@ -1,4 +1,4 @@
-package meditatii.fibonacci;
+package algorithms.fibo;
 
 import java.util.Scanner;
 

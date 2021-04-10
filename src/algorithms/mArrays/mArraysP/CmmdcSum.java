@@ -16,12 +16,13 @@ public class CmmdcSum {
                 A[i][j] = sc.nextInt();
             }
         }
-
+        //deasupra
         for (int i = 2; i <= n; i++) {
             for (int j = 1; j < i; j++) {
                 S1 += A[i][j];
             }
         }
+        //sub
         for (int i = 1; i <= n; i++) {
             for (int j = i+1; j <= n; j++) {
                 S2 += A[i][j];

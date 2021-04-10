@@ -1,4 +1,4 @@
-package meditatii.pbInfo;
+package algorithms.elementaryAlgorithms;
 
 import java.util.Scanner;
 
