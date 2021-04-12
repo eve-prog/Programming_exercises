@@ -1,4 +1,4 @@
-package algorithms.mArrays.mArraysP;
+package algorithms.mArrays.mArrays;
 //2877
 import java.util.Scanner;
 
