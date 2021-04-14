@@ -15,7 +15,7 @@ public class MatSim1 {
             }
         }
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j < i; j++) {
+            for (int j = n; j >= 1; j--) {
                 if (i + j < n + 1) {
                     int aux = a[i][j];
                     a[i][j] = a[j][i];

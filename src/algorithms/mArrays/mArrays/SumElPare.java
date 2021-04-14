@@ -1,12 +1,12 @@
 package algorithms.mArrays.mArrays;
-
+//662
 import java.util.Scanner;
 
 public class SumElPare {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int A[][] = new int[102][102];
+        int[][] A = new int[102][102];
         int n = sc.nextInt();
         int m = sc.nextInt();
 

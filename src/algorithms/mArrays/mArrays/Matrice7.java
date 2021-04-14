@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class Matrice7 {
     public static void main(String[] args) throws IOException {
         int n, m;
-        Scanner scanner = new Scanner(new File("E:\\Programming exercises\\src\\algorithms\\arrays\\matrice7.in"));
-        FileWriter writer = new FileWriter("E:\\Programming exercises\\src\\algorithms\\arrays\\matrice7.out");
+        Scanner scanner = new Scanner(new File("E:\\Programming exercises\\src\\algorithms\\mArrays\\mArrays\\matrice7.in"));
+        FileWriter writer = new FileWriter("E:\\Programming exercises\\src\\algorithms\\mArrays\\mArrays\\matrice7.out");
         n = scanner.nextInt();
         m = scanner.nextInt();
         System.out.println(n + " " + m);
