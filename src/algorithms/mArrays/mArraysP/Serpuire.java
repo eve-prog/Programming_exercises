@@ -18,7 +18,7 @@ public class Serpuire {
         for (k = 2; k <= 2 * n; k++) {
             //cautam capatul de pornire al diagonalei cu suma k
             if (k % 2 == 0) {
-                //coborare; coboram din linia 1 sau coloana n
+                // par -> coborare; coboram din linia 1 sau coloana n
                 if (k <= n + 1) {
                     i = 1;
                     j = k - i;
@@ -37,7 +37,7 @@ public class Serpuire {
                     }
                 }
             } else {
-                //urcare; urcam din coloana1 sau linia n
+                //impar -> urcare; urcam din coloana 1 sau linia n
                 if (k <= n + 1) {
                     j = 1;
                     i = k - j;
