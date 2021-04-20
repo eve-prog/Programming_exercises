@@ -2,7 +2,7 @@ package algorithms.elementaryAlgorithms.loops;
 //1569
 import java.util.Scanner;
 
-public class ScaraNr {
+public class ScaraNumerelor {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
