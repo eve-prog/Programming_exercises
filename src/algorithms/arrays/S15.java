@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 
 public class S15 {
 

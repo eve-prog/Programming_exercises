@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 //490
 import java.util.Scanner;
 public class AfisareMinMax {

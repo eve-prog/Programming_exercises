@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 //502
 import java.util.Scanner;
 

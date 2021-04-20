@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 import java.util.Scanner;
 //487
 public class Numarare2 {

@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 //sa se insereze după fiecare element par, jumătatea sa.
 import java.util.Scanner;
 

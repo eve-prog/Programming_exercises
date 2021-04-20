@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 //506
 import java.util.Scanner;
 public class ExistaPrime {

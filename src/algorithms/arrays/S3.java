@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 
 public class S3 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 
 import java.util.ArrayList;
 import java.util.List;

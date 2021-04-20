@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 //sa se stearga elementele egale cu 0 din vectorul citit
 
 import java.util.Scanner;

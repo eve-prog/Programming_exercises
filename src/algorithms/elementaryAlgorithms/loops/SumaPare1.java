@@ -1,15 +1,17 @@
 package algorithms.elementaryAlgorithms.loops;
-//459
+
 import java.util.Scanner;
 
-public class Suma1 {
+//52
+public class SumaPare1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n;
-        int s = 0;
+        long n;
+        long s = 0;
+
         do {
-            n = sc.nextInt();
-            if (n!=0) {
+            n = sc.nextLong();
+            if (n % 2 == 0) {
                 s += n;
             }
         }while (n!=0);
@@ -17,4 +19,3 @@ public class Suma1 {
         System.out.println(s);
     }
 }
-

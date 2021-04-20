@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 
 import static java.lang.System.identityHashCode;
 

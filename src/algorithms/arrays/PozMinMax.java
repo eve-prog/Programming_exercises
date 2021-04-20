@@ -1,4 +1,4 @@
-package meditatii.vectori;
+package algorithms.arrays;
 //553
 import java.util.Scanner;
 public class PozMinMax {
