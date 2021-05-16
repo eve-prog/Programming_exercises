@@ -13,7 +13,7 @@ public class UltimeleImpare {
             nr = sc.nextInt();
             if (nr % 2 != 0) {
                 c++;
-                System.out.println(nr);
+                System.out.print(nr + " ");
             }
         }while (n!=0);
         if (c == 0) {

@@ -11,9 +11,11 @@ public class Vas {
         int y = sc.nextInt();
         int T = 0;
 
-        for (int i = x; i >= y; i--) {
-
+        while(x>y) {
+            T = T+t;
+            x = x - (x/4);
         }
         System.out.println(T);
     }
 }
+

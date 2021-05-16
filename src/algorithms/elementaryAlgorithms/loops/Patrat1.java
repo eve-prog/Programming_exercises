@@ -1,5 +1,6 @@
 package algorithms.elementaryAlgorithms.loops;
 //458
+
 import java.util.Scanner;
 
 public class Patrat1 {
@@ -10,12 +11,21 @@ public class Patrat1 {
         char d = scanner.next().charAt(0);
 
         for (int i = 1; i <= n; i++){
-            System.out.print(c);
-            for (int j = 2; j < n - 1; j++) {
-                System.out.print(d);
+            if(i%2 != 0){
                 System.out.print(c);
+                for (int j = 2; j <= n; j=j+2) {
+                    System.out.print(d);
+                    System.out.print(c);
+                }
+                System.out.println();
+            }else{
+                System.out.print(d);
+                for (int j = 2; j <= n; j=j+2) {
+                    System.out.print(c);
+                    System.out.print(d);
+                }
+                System.out.println();
             }
-            System.out.println();
         }
     }
 }
