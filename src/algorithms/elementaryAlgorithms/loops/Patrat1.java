@@ -10,17 +10,17 @@ public class Patrat1 {
         char c = scanner.next().charAt(0);
         char d = scanner.next().charAt(0);
 
-        for (int i = 1; i <= n; i++){
-            if(i%2 != 0){
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 != 0) {
                 System.out.print(c);
-                for (int j = 2; j <= n; j=j+2) {
+                for (int j = 2; j <= n; j = j + 2) {
                     System.out.print(d);
                     System.out.print(c);
                 }
                 System.out.println();
-            }else{
+            } else {
                 System.out.print(d);
-                for (int j = 2; j <= n; j=j+2) {
+                for (int j = 2; j <= n; j = j + 2) {
                     System.out.print(c);
                     System.out.print(d);
                 }
