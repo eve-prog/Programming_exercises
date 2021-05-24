@@ -1,8 +1,8 @@
 package algorithms.uniDimenArrays.interclassing;
-//241
+//250
 import java.util.Scanner;
 
-public class Interclasare {
+public class Interclasare1 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -22,12 +22,16 @@ public class Interclasare {
             b[i] = sc.nextInt();
         }
 
-        int i = 0, j = 0; int k = 0;
+        int i = 0, j = 0;
+        int k = 0;
         while (i < n && j < m) {
             if (a[i] < b[j]) {
                 c[k++] = a[i++];
-            } else {
+            } else if (a[i] > b[j]) {
                 c[k++] = b[j++];
+            } else {
+                c[k++] = a[i++];
+                j++;
             }
         }
         while (i < n) {
@@ -36,7 +40,7 @@ public class Interclasare {
         while (j < m) {
             c[k++] = b[j++];
         }
-        for (int p = 0; p < n + m; p++) {
+        for (int p = 0; p < k; p++) {
             System.out.print(c[p] + " ");
             if (p % 10 == 9) {
                 System.out.println();
