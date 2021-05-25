@@ -1,7 +1,7 @@
 package algorithms.divideEtImpera;
 //Suma elementelor dintr-un vector
 import java.util.Scanner;
-
+//1015
 public class DivideEtImpera {
 
     public static int Suma(int V[], int st, int dr) {

@@ -1,4 +1,4 @@
-package algorithms.uniDimenArrays.arrays;
+package algorithms.uniDimenArrays.sequenceArrays;
 //516
 
 import java.util.Scanner;

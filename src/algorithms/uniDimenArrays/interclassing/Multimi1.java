@@ -69,7 +69,6 @@ public class Multimi1 {
         for (int p = 0; p < k1; p++) {
             System.out.print(e[p] + " ");
         }
-
     }
 }
 

@@ -35,11 +35,13 @@ public class Interclasare3 {
             c[k++] = b[j--];
         }
 
+        int l = 0;
         for (int p = 0; p < n + m; p++) {
             if (c[p] % 2 == 0) {
                 System.out.print(c[p] + " ");
+                l++;
             }
-            if (p % 20 == 19) {
+            if (l % 20 == 0) {
                 System.out.println();
             }
         }
