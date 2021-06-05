@@ -1,23 +1,27 @@
 package algorithms.elementaryAlgorithms.loops;
 //246
+
 import java.util.Scanner;
 
 public class UltimeleImpare {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n, nr;
-        n = sc.nextInt();;
-        int c = 0;
+        int x;
+        int n = sc.nextInt();
+        int ultim = 0, penultim = 0;
 
-        do {
-            nr = sc.nextInt();
-            if (nr % 2 != 0) {
-                c++;
-                System.out.print(nr + " ");
+
+        for (int i = 1; i<=n; i++){
+            x = sc.nextInt();
+            if (x % 2 != 0) {
+                penultim = ultim;
+                ultim = x;
             }
-        }while (n!=0);
-        if (c == 0) {
+        }
+        if (penultim == 0 || ultim == 0) {
             System.out.println("Numere insuficiente");
+        }else{
+            System.out.println("" + penultim + " " + ultim);
         }
     }
 }
