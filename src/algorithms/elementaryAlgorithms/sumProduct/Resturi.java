@@ -9,7 +9,7 @@ public class Resturi {
         long k = scanner.nextLong();
         long S = 0;
         long m;
-        int i = 0;
+        long i = 0;
 
         while (i <= n){
             m = i % k;
