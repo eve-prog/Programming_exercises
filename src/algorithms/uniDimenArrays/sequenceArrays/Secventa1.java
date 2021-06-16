@@ -1,5 +1,5 @@
 package algorithms.uniDimenArrays.sequenceArrays;
-
+//519
 import java.util.Scanner;
 
 public class Secventa1 {

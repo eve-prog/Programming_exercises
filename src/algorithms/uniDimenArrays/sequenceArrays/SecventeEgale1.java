@@ -1,8 +1,10 @@
 package algorithms.uniDimenArrays.sequenceArrays;
-//518
+
 import java.util.Scanner;
 
-public class SecvZero {
+//524
+public class SecventeEgale1 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -15,17 +17,14 @@ public class SecvZero {
             v[i] = sc.nextInt();
         }
         for (int i = 1; i <= n; i++) {
-            if (v[i] == 0) {
-                int j = i;
-                while (j + 1 <= n && v[j + 1] == 0) {
-                    j++;
-                }
-                if (j - i + 1 > lmax) {
-                    lmax = j - i + 1;
-                    st = i;
-                    dr = j;
-                }
-                i = j;
+            for (int j = 1; j + 1 <= n; j++) {
+                 if (v[i] == v[j]){
+                     if (j - i + 1 > lmax) {
+                         lmax = j - i + 1;
+                         st = i;
+                         dr = j;
+                     }
+                 }
             }
         }
         System.out.println(st + " " + dr);
